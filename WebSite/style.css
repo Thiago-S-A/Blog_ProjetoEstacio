@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-image: linear-gradient(to right, #1185fa, #00bfff);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Menu de navegação */
+nav {
+    background: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1e90ff;
+}
+
+/* Conteúdo principal */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* conteúdo + sidebar */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Artigos e texto principal */
+main section, main p {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#principal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Barra lateral (aside) */
+aside {
+    background: #fff;
+    padding: 20px;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+}
+
+#footer {
+    background-image: linear-gradient(to right, #333, #777);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}

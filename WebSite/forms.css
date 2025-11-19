@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo */
+body {
+    background: #f4f6fa;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-image: linear-gradient(to right, #1185fa, #00bfff);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Formulário */
+form {
+    background: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.radioo {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.checkbox1 {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+a {
+    font-size: 16px;
+    color: white;
+}
+
+#footer {
+    margin-top: auto;
+    background-image: linear-gradient(to left, #1185fa, #00bfff);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.caixa {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#idade {
+    width: 20%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#mensagem {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    color: #333;
+}
+
+.button1 {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+#botoes {
+    text-align: center;
+}
